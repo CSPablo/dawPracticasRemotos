@@ -1,18 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+        ul{
+            background-color: greenyellow;
+        }
+
+        h1{
+            border: 5px red dotted;
+        }
+    </style>
+
+    <script>
+        document.getElementsByTagName("h1")[0].onhover = example;
+
+        function example(){
+            this.style.border = "5px blue dotted";
+        }
+    </script>
+
 </head>
+
 <body>
     <h1> Módulos de Desarrollo de Aplicaciones Web</h1>
-    <ul>Despliegue de Aplicaciones Web</ul>
+    <li>
+        <ul>Despliegue de Aplicaciones Web</ul>
+        <ul>Tutoria</ul>
+        <ul>FOL</ul>
+        <ul>Programacion</ul>
+        <ul>Base de datos</ul>
+        <ul>Ingles</ul>
+        <ul>DEWC</ul>
+    </li>
 </body>
-</html>Tutoria
-FOL
-Programacion
-Base de datos
 
-Ingles
-DEWC
+</html>
